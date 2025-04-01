@@ -75,17 +75,57 @@ li a:hover {
 
 
 @media (max-width: 800px) {
-    li a {
-        display: initial;
-        color: black;
-        text-align: center;
-        margin: 0;
-        padding: 16px;
-    }
-    .shapka {
-        height: 100px;
-    }
     /* Тут пиши стили для мобилки.
         Стили применятся только когда страничка будет ≤800px шириной
      */
+    #img1 {
+        width:20%;
+        margin: 16px 16px 16px 16px;
+        padding-top: 15px;
+    }
+
+    li {
+        float: none;
+        margin-left: 20px;
+    }
+
+    li a {
+        display: block;
+        color: black;
+        text-align: left;
+        margin: 16px 0;
+        padding: 0px;
+    }
+
+    #block1 {
+        margin: 20px;
+    }
+    
+    .shapka {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:20px;
+        color:#333333;
+        text-align:left;
+        line-height:18px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        margin: 0;
+        width: 100%;
+    }
+    
+    h1{
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:26px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:44px;
+    }
+    
+    h2{
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:44px;
+    }
 }
