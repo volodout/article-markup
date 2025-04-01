@@ -1,38 +1,40 @@
-h1{
+h1 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    font-size:42px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:44px;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
 }
 
-h2{
+h2 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    font-size:34px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:44px;
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
 }
-img{
+
+img {
     width: 100%;
 }
-code{
+
+code {
     background-color: #f2f2f2;
     font-family: "Courier New", monospace;
 }
 
 #img1 {
-    width:7%;
+    width: 7%;
     height: 5%;
     margin: 16px 16px 16px 16px;
 }
 
 .shapka {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    font-size:24px;
-    color:#333333;
-    text-align:left;
-    line-height:36px;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     margin: 0;
@@ -64,13 +66,20 @@ li a:hover {
     margin: 0;
 }
 
-#block1{
+#block1 {
     margin: 55px 25%;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+}
+
+#cringe2 {
+    position: absolute;
+    padding-top: 22px;
+    padding-left: 50px;
+    z-index: 2;
 }
 
 
@@ -79,7 +88,7 @@ li a:hover {
         Стили применятся только когда страничка будет ≤800px шириной
      */
     #img1 {
-        width:20%;
+        width: 20%;
         margin: 16px 16px 16px 16px;
         padding-top: 15px;
     }
@@ -100,32 +109,32 @@ li a:hover {
     #block1 {
         margin: 20px;
     }
-    
+
     .shapka {
         font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-        font-size:20px;
-        color:#333333;
-        text-align:left;
-        line-height:18px;
+        font-size: 20px;
+        color: #333333;
+        text-align: left;
+        line-height: 18px;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
         margin: 0;
         width: 100%;
     }
-    
-    h1{
+
+    h1 {
         font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-        font-size:26px;
-        color:rgba(0,0,0,0.84);
-        text-align:left;
-        line-height:44px;
+        font-size: 26px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 44px;
     }
-    
-    h2{
+
+    h2 {
         font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-        font-size:18px;
-        color:rgba(0,0,0,0.84);
-        text-align:left;
-        line-height:44px;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 44px;
     }
 }
